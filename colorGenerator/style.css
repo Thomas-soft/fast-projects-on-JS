@@ -1,0 +1,23 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    text-align: center;
+    transition: 1s ease;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1
+{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 40px;
+}

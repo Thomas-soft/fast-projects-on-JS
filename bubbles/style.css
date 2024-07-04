@@ -1,0 +1,33 @@
+body
+{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.circle
+{
+    border-radius: 100%;
+    position: absolute;
+    background-color: #59d3ffa1;
+    opacity: 0;
+    animation: anim 8s forwards;
+    filter: hue-rotate(0deg);
+}
+
+@keyframes anim
+{
+    to
+    {
+        top: -250px;
+        left: var(--left);
+        opacity: 1;
+        filter: hue-rotate(720deg);
+    }
+}
+
+h1
+{
+    font-size: 10rem;
+    text-align: center;
+    margin-top: 20px;
+}
